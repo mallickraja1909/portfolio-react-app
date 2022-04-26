@@ -17,8 +17,14 @@ const Skills = () => {
 <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
     <div>
 
-        <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-        <p className='py-4'>These are the technologies I've worked with</p>
+        <p className='text-4xl font-bold inline border-b-4 border-yellow-300 '>Skills</p>
+      <br></br>
+      <br></br>
+       <p className='text-1xl font-bold text-white'>I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, React JS, building small and medium web apps.
+
+</p>
+       
+        <p className='text-2xl font-bold'>These are the technologies I've worked with :-</p>
     </div>
     <div className='w-full grid grid-col-2 sm:grid-cols-4 gap-4 text-center py-8'>
         <div className='shadow-md shadow-[#ffab84] hover:scale-110 duration-500'>

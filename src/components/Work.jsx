@@ -5,12 +5,13 @@ import Working from '../assets/work.png'
 const Work = () => {
   return (
     <div name='work' className='md:h-screen text-gray-300 bg-[#0a192f]'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center  w-full h-full'>
             <div className='pb-8'>
-                <p  className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-                <p className='py-6'>Check out my recent work</p>
+                <p  className='text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-300 ' >Work</p>
+                
+               
         </div>
-
+<div> <p className='text-2xl font-bold anotherline  text-gray-300'>Check out my recent work :-</p></div>
         {/* container */}
 
        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -32,11 +33,11 @@ React JS Application
         </span>
         <div className='pt-8 text-center'>
             <a href="/">
-                <button className='text-center rounded-lg px-3 py-3 m-2 bg-white text-blue-600 font-bold text-lg hover:scale-110 duration-500'>Demo</button>
+                <button className='text-center rounded-lg px-1 py-3 m-2 bg-yellow-300 text-black font-bold text-lg hover:scale-150 duration-500'>Demo</button>
             </a>
             {/*  */}
             <a href="/">
-                <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-blue-600 font-bold text-lg hover:scale-110 duration-500 '>Code</button>
+                <button  className='text-center rounded-lg px-2 py-3 m-2 bg-yellow-300 text-black font-bold text-lg hover:scale-150 duration-500 '>Code</button>
             </a>
         
     </div>

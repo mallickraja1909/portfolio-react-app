@@ -16,7 +16,7 @@ const Navbar = () => {
     
 {/* menu below using unorderd list  & list */}
      {/* <div className='hidden md:flex'> */}
-         <ul className='hidden md:flex'>
+         <ul className='hidden md:flex text-2xl text-bold  '>
      <li>
      <Link  to="home" smooth={true} duration={500}>
           Home
