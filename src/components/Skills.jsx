@@ -75,7 +75,9 @@ const Skills = () => {
         <div className='shadow-md shadow-[#5ca14b] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt="Node Js icon"/>
             <p className='my-4'>MONGO DB</p>
+
         </div>
+
 
     </div>
 </div>
