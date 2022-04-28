@@ -16,7 +16,7 @@ li{
 }
 
 .content-div{
-    background-image: no-repeat;
+    /* background-image: no-repeat; */
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -33,3 +33,14 @@ li{
     )!important;
   
 }
+.responsive {
+  
+    width: auto;
+    max-width: auto;
+    height: auto;
+    
+  }
+  .workIng{
+      background-color:#0a192f;
+      justify-items: center;
+  }
